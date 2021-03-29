@@ -1,6 +1,6 @@
 function run() { //local variable because variable is in function
     var x = 500;
-    console.log(500 + x + "<br");
+    console.log(500 + x + "<br>");
 }
 
 function run2() {
