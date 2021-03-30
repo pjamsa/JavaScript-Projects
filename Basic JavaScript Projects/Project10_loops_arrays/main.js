@@ -54,7 +54,7 @@ document.write("<br>" + X); // will return 99 because of let variable above
 function this_Function() {
     return Math.PI; //return number PI
 }
-document.getElementById("demo").innerHTML = this_Function();
+
 
 let dog = { // object
     type: "Pit Bull ", //properties
