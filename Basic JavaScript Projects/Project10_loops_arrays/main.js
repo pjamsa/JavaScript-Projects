@@ -68,15 +68,3 @@ let dog = { // object
 document.getElementById("Dog_Object").innerHTML = dog.description(); //displays the combinations of strings in HTML
 
 
-function newFunction() {
-    var text = "";
-    var i = 0;
-    while(1 < 5) {
-        text += "<br>The number is " + i;
-        i++;
-        if (i === 3) {
-            break;
-        }
-    }
-document.getElementById("break").innerHTML = text;
-}
