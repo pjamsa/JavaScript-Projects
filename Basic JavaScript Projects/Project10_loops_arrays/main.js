@@ -42,10 +42,6 @@ function constant_Function() {
      " to Los Angeles and hoped his friends wouldn't make fun of it's " + Bicycle.color + " color." // combines strings
 }
 
-function this_Function() {
-    return Math.PI;
-}
-document.getElementById("demo").innerHTML = this_Function();
 
 var X = 99;
 document.write(X);
@@ -55,6 +51,20 @@ document.write(X);
 }
 document.write("<br>" + X);
 
+function this_Function() {
+    return Math.PI;
+}
+document.getElementById("demo").innerHTML = this_Function();
 
+let dog = {
+    type: "Pit Bull ",
+    sex: "Male ",
+    age: "4 year old ", 
+    color: "gray ",
+    description : function() {
+        return "The dog is a " + this.age + this.color + this.sex + this.type;
+    }
+};
+document.getElementById("Dog_Object").innerHTML = description();
 
 
