@@ -49,22 +49,34 @@ document.write(X);
     let X = 100;
     document.write("<br>" + X);
 }
-document.write("<br>" + X);
+document.write("<br>" + X); // will return 99 because of let variable above
 
 function this_Function() {
-    return Math.PI;
+    return Math.PI; //return number PI
 }
 document.getElementById("demo").innerHTML = this_Function();
 
-let dog = {
-    type: "Pit Bull ",
+let dog = { // object
+    type: "Pit Bull ", //properties
     sex: "Male ",
     age: "4 year old ", 
     color: "gray ",
     description : function() {
         return "The dog is a " + this.age + this.color + this.sex + this.type;
     }
-};
-document.getElementById("Dog_Object").innerHTML = description();
+}
+document.getElementById("Dog_Object").innerHTML = dog.description(); //displays the combinations of strings in HTML
 
 
+function newFunction() {
+    var text = "";
+    var i = 0;
+    while(1 < 5) {
+        text += "<br>The number is " + i;
+        i++;
+        if (i === 3) {
+            break;
+        }
+    }
+document.getElementById("break").innerHTML = text;
+}
