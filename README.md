@@ -10,7 +10,7 @@ These are some basic projects I have created with the programming language, Java
   <li>Django Checkbook</li>
 </ul>
 
-<h2>Calculatorr</h2>
+<h2>Calculator</h2>
 In this project I created an tkinter gui app that allows the user to choose two folders to transfer files between if the files have been modified in the last 24 hours.  
 
 <h2>Student Tracker</h2>
