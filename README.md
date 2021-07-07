@@ -4,13 +4,13 @@ These are some basic projects I have created with the programming language, Java
 
 <h2>Projects:</h2>
 <ul>
-  <li>File Transfer</li>
+  <li>Calculator</li>
   <li>Student Tracker</li>
   <li>Django University</li>
   <li>Django Checkbook</li>
 </ul>
 
-<h2>File Transfer</h2>
+<h2>Calculatorr</h2>
 In this project I created an tkinter gui app that allows the user to choose two folders to transfer files between if the files have been modified in the last 24 hours.  
 
 <h2>Student Tracker</h2>
