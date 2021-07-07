@@ -5,19 +5,17 @@ These are some basic projects I have created with the programming language, Java
 <h2>Projects:</h2>
 <ul>
   <li>Calculator</li>
-  <li>Student Tracker</li>
-  <li>Django University</li>
-  <li>Django Checkbook</li>
+  <li>Pizza Project</li>
+  <li>Tic Tac Toe</li>
 </ul>
 
 <h2>Calculator</h2>
-In this project I created an tkinter gui app that allows the user to choose two folders to transfer files between if the files have been modified in the last 24 hours.  
+This project features a fully functioning calculator using methods and functions from Javascript, and style design in HTML, and CSS. 
 
-<h2>Student Tracker</h2>
-In this project I created a functional app that uses a tkinter gui to add students name, phone number, email address, and course info to a sqlite3 database.
+<h2>Pizza Project</h2>
+In this project I created an online form where a customer can select a pizza size and add toppings.  The site will then print a receipt based off of the type and quantity of toppings.
 
-<h2>Django University</h2> 
-This project uses Django to create a back end database where the user can add information about Univeristy course to a database.
+<h2>Tic Tac Toe</h2> 
+In this project I created a fully functioning game of tic tac toe using JavaScript, HTML, and CSS.
 
-<h2>Django Checkbook</h2>
-This project uses Django to create a fully functional front end website where the user can create an account to track their spending and account balance.
+
